@@ -9,9 +9,9 @@ function mostrar()
 	var nombreIngresado;
 
 	//Guardo nombre 
-	//nombreIngresado = document.getElementById("txtIdNombre").value;
+	nombreIngresado = document.getElementById("txtIdNombre").value;
 	//se define una variable, a diferencia del ej 2, el texto no se ingresa en una ventana emergente, si no en un campo ya establecido
-	nombreIngresado = txtIdNombre.value;
+	//nombreIngresado = txtIdNombre.value;
 
 	//muestro el nombre por alert
 	alert("Su nombre es " + nombreIngresado);
